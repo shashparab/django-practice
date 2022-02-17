@@ -2,7 +2,7 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="roopali.parab@onfido.com"
+OLD_EMAIL="shashank.parab@waitrose.co.uk"
 CORRECT_NAME="Shashank parab"
 CORRECT_EMAIL="shashparab@gmail.com"
 
@@ -16,4 +16,4 @@ then
     export GIT_AUTHOR_NAME="$CORRECT_NAME"
     export GIT_AUTHOR_EMAIL="$CORRECT_EMAIL"
 fi
-' --tag-name-filter cat -- --branches --tags 
+' --tag-name-filter cat -- --branches --tags
