@@ -2,7 +2,7 @@
 
 git filter-branch --env-filter '
 
-OLD_EMAIL="shashank.parab@waitrose.co.uk"
+OLD_EMAIL="roopali.parab@onfido.com"
 CORRECT_NAME="Shashank parab"
 CORRECT_EMAIL="shashparab@gmail.com"
 
